@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+a{
+text-decoration: none;
+margin: 0 25px;
+color: white ;
+font-size: 1rem;
+font-family: 'Zen Dots', cursive;
+
+}
+a:hover{
+    color: red;
+}
+#bottam_containner{
+    background-color: rgb(35, 34, 32);
+    width: 100%;
+    height: 900px,100%;
+        font-family: 'Zen Dots', cursive;
+        line-height: 2;
+        padding-bottom: 50px;
+    margin-bottom:30px;    
+}
+.TT{ width: 100%;
+    margin: 40px auto 60px;
+}
+.About_me{
+    padding-top: 13.5rem;
+
+}
+.My_image_bottam{
+    float: left;
+    width: 25%;
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 5PX; 
+}
+
+.btn {
+  background: #9c1f3a;
+  background-image: -webkit-linear-gradient(top, #9c1f3a, #d93c5e);
+  background-image: -moz-linear-gradient(top, #9c1f3a, #d93c5e);
+  background-image: -ms-linear-gradient(top, #9c1f3a, #d93c5e);
+  background-image: -o-linear-gradient(top, #9c1f3a, #d93c5e);
+  background-image: linear-gradient(to bottom, #9c1f3a, #d93c5e);
+  -webkit-border-radius: 21;
+  -moz-border-radius: 21;
+  border-radius: 21px;
+  -webkit-box-shadow: 1px 1px 8px #0a0a0a;
+  -moz-box-shadow: 1px 1px 8px #0a0a0a;
+  box-shadow: 1px 1px 8px #0a0a0a;
+font-family: 'Zen Dots', cursive;
+  color: white;
+  font-size: 23px;
+  padding: 5px 16px 9px 15px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #070808;
+  background-image: -webkit-linear-gradient(top, #070808, #3c4145);
+  background-image: -moz-linear-gradient(top, #070808, #3c4145);
+  background-image: -ms-linear-gradient(top, #070808, #3c4145);
+  background-image: -o-linear-gradient(top, #070808, #3c4145);
+  background-image: linear-gradient(to bottom, #070808, #3c4145);
+  text-decoration: none;
+}
+
+h1{
+    /* font-size: 65px; */
+    font-size: 4.2rem;
+}
+@media(max-width:900px){
+    h1{
+        /* font-size: 65px; */
+        font-size:2.5rem;
+    }
+}
+.top_container{
+    padding: 20px 20px;
+    position:fixed;
+    z-index:2;
+}
+@media(max-width:900px){
+    .top_container{
+        padding: 50px 30px;
+        position:fixed;
+        z-index:2;
+    } 
+     
+}
+.middel_container{
+    position: relative; 
+    color: white;
+    padding-left: 136px;
+    padding-top: 193px;
+    font-family: 'Zen Dots', cursive;
+    position: relative;
+    padding-bottom: 255px;
+}
+@media(max-width:900px){
+    .middel_container{
+        position: relative;
+        color: white;
+        padding-left: 88px;
+        padding-top: 230px;
+        font-family: 'Zen Dots', cursive;
+        position: relative;
+        padding-bottom: 219px;
+}
+.middel_container {
+    position: relative;
+    color: white;
+    padding-left: 136px;
+    padding-top: 193px;
+    font-family: 'Zen Dots', cursive;
+    position: relative;
+    padding-bottom: 255px;
+    }
+}
+.My_image{
+   
+    position: absolute;
+    right: -8px;
+    height: 735px;
+    margin-top: 0px;
+    z-index:-1;
+}
+@media(max-width:900px){
+    .My_image{
+   
+        position: absolute;
+        right: -10px;
+        height: 650px;
+        margin-left: 0px;
+        z-index:-1;
+    }
+}
+.port{
+    margin-right: 240px;
+    font-family: 'Zen Dots', cursive;
+    font-weight: bold;
+    color: white ;
+    font-size: 2rem;
+}
+.lio{
+    color: red;
+}
+
+.vyas{
+    color: red;
+    font-family: 'Zen Dots', cursive;
+}
+#MY_SKILLS{
+    font-family: 'Zen Dots', cursive;
+    margin-top: 260PX;
+    text-align: center;
+}
+.SKILLS{
+    margin-top: 20PX;
+    margin-left: 20PX;
+}
+.W{
+    background-color:  rgb(35, 34, 32);
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+.C{
+    background-color:  rgb(35, 34, 32);
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+.J{
+    background-color:  rgb(35, 34, 32);
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+#fotter{
+    text-align: center;
+    margin: 50px;
+    font-family: 'Zen Dots', cursive;
+    text-align: center;
+}
